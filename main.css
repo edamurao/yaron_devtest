@@ -1,0 +1,134 @@
+body {
+	margin: 0;
+	font-family: 'Helvetica';
+}
+
+header{
+    padding-top: 10px;
+    height: 93px;
+}
+
+header > div > nav > div > ul{
+    margin-top: 15px;
+}
+
+header > div > nav > div > ul > li > a,
+header > div > nav > div > ul > li > a:focus,
+header > div > nav > div > ul > li > a:hover,
+header > div > nav > div > ul > li > a:active
+{
+    color: black;
+}
+
+content{
+    background-color:red;
+}
+
+.myPlayer{
+    padding:20px 0px;
+    text-align: center;
+    display:inline-block;
+}
+
+#panelCoupon{
+    width:236px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 567px;    
+}
+
+#panelSignUp{
+    position: absolute;
+}
+
+#panelSignUp > .panel-body{
+    padding: 0px;
+}
+
+#formSignUp > input{
+    width: 316px;
+    border-radius: 0px;
+}
+
+#formSignUp > p{
+    margin-top: 10px;
+}
+
+#formSignUp > button {
+    color: #ffffff;
+    border-radius: 0px;
+    border: 1px solid rgb(26, 24, 24);
+    background-color:rgb(26, 24, 24);
+}
+
+#panelSignUpCloseBtn {
+    position: absolute;
+    margin-top: 7px;
+    right: 9px;
+}
+#formSignUp{
+    position: absolute;
+    color:#ffffff;
+    margin-top: 151px;
+    margin-left: 225px;
+}
+
+#panelCoupon > .panel-heading {
+    text-align:left;
+    padding: 5px
+}
+
+#panelCoupon > .panel-body {
+    padding: 5px
+}
+
+#vidList > div > div > a > img{
+    width: 100%;
+}
+
+
+footer {
+    background-color:black;
+    color: white;
+    padding-top: 33px;
+    padding-bottom: 35px;
+}
+
+/*image slide*/
+#myCarousel > .carousel-inner> .item > .carousel-caption {
+    text-align:left;    
+    left: 7%;
+}
+
+#myCarousel > .carousel-inner> .item > .carousel-caption > p{
+    font-size: 40px
+}
+
+#myCarousel > .carousel-inner> .item > .carousel-caption > p > button {
+    background: none;
+    border: 2px solid white
+}
+
+#myCarousel > .carousel-inner> .carousel-control{
+    width:6%;
+}
+
+/*footer*/
+.footerNav{
+    list-style:none;
+    padding: 0px;
+    text-align: center;
+}
+
+.footerNav > ul{
+    
+}
+
+.footerNav > li{    
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.footerNav > li > a{
+    color: white;    
+}
